@@ -70,7 +70,7 @@ export default function Home() {
               className="flex flex-col sm:flex-row gap-4"
             >
               <Button size="lg" className="text-lg" asChild>
-                <Link href="https://drive.google.com/file/d/11r9FzhunNmDpBWiP91iD4KkVRzEXbQyF/view?usp=sharing">
+                <Link href="https://drive.google.com/file/d/1NndnEyuHNuFjmvnilJH3dVLUyyQOc3Xs/view?usp=sharing">
                   My Resume
                 </Link>
               </Button>
