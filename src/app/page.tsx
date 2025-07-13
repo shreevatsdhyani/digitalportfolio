@@ -1,8 +1,5 @@
 "use client"
 
-import goofypic from "@/assets/Thumbnailgoofy.png"
-import ecgpic from "@/assets/ecgpic.jpg"
-import urlpic from "@/assets/urlpic.jpg"
 import { Achievements } from "@/components/achievements"
 import { ContactForm } from "@/components/contact-form"
 import { ExperienceTimeline } from "@/components/experience-timeline"
@@ -11,7 +8,7 @@ import { Footer } from "@/components/footer"
 import { ProjectCard } from "@/components/project-card"
 import { SkillWheel } from "@/components/skill-wheel"
 import { SocialLinks } from "@/components/social-links"
-import { TypewriterEffect } from "@/components/typewritter-effect"
+import { TypewriterEffect } from "@/components/typewriter-effect"
 import { Button } from "@/components/ui/button"
 import { Environment, Float, OrbitControls } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
@@ -49,10 +46,7 @@ export default function Home() {
                   Shreevats Dhyani
                 </h1>
                 <div className="h-auto">
-                  <TypewriterEffect
-                    words={words}
-                    className="text-2xl sm:text-4xl md:text-5xl font-bold"
-                  />
+                  <TypewriterEffect words={words} className="text-2xl sm:text-4xl md:text-5xl font-bold" />
                 </div>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                   ML Engineer | Generative AI Developer | Software Innovator
@@ -69,10 +63,8 @@ export default function Home() {
                     My Resume
                   </Link>
                 </Button>
-                <Button size="lg" variant="outline" className="text-lg" asChild>
-                  <Link href="https://www.linkedin.com/in/shreevatsdhyani/">
-                    Get in Touch
-                  </Link>
+                <Button size="lg" variant="outline" className="text-lg bg-transparent" asChild>
+                  <Link href="https://www.linkedin.com/in/shreevatsdhyani/">Get in Touch</Link>
                 </Button>
               </motion.div>
               <SocialLinks />
@@ -106,10 +98,9 @@ export default function Home() {
             >
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">About Me</h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I&apos;m a dedicated Machine Learning and Data Science Engineer with a knack for
-                software development. I specialize in crafting intelligent, data-driven solutions to
-                tackle real-world challenges, leveraging pioneering technologies to deliver impactful
-                results.
+                I&apos;m a dedicated Machine Learning and Data Science Engineer with a knack for software development. I
+                specialize in crafting intelligent, data-driven solutions to tackle real-world challenges, leveraging
+                pioneering technologies to deliver impactful results.
               </p>
               <SkillWheel />
             </motion.div>
@@ -135,22 +126,54 @@ export default function Home() {
               <ProjectCard
                 title="Goofy Music"
                 description="Your personalized music streaming platform with a sleek interface, powerful player, and seamless authentication for an unmatched listening experience."
-                tags={["HTML", "CSS", "Tailwind CSS", "JavaScript", "Django", "PostgreSQL", "Google Authentication", "Email Integration"]}
-                image={goofypic}
+                tags={[
+                  "HTML",
+                  "CSS",
+                  "Tailwind CSS",
+                  "JavaScript",
+                  "Django",
+                  "PostgreSQL",
+                  "Google Authentication",
+                  "Email Integration",
+                ]}
+                image="/placeholder.svg?height=400&width=600"
                 link="https://github.com/shreevatsdhyani/GoofyMusic"
               />
               <ProjectCard
                 title="ECG Anomaly Detection using Autoencoders"
                 description="Autoencoder-based ECG anomaly detection using TensorFlow/Keras."
-                tags={["Python", "TensorFlow", "Keras", "NumPy", "Pandas", "Scikit-learn", "Matplotlib", "Seaborn", "Plotly"]}
-                image={ecgpic}
+                tags={[
+                  "Python",
+                  "TensorFlow",
+                  "Keras",
+                  "NumPy",
+                  "Pandas",
+                  "Scikit-learn",
+                  "Matplotlib",
+                  "Seaborn",
+                  "Plotly",
+                ]}
+                image="/placeholder.svg?height=400&width=600"
                 link="https://github.com/shreevatsdhyani/ECG_Anomaly_Detector"
               />
               <ProjectCard
                 title="Malicious URL Detector"
                 description="A web app using AI to detect malicious URLs, offering a secure and user-friendly browsing experience."
-                tags={["Python", "Flask", "Scikit-learn", "Pandas", "NumPy", "TF-IDF Vectorizer", "HTML", "CSS", "JavaScript", "Pickle", "CSV", "Git"]}
-                image={urlpic}
+                tags={[
+                  "Python",
+                  "Flask",
+                  "Scikit-learn",
+                  "Pandas",
+                  "NumPy",
+                  "TF-IDF Vectorizer",
+                  "HTML",
+                  "CSS",
+                  "JavaScript",
+                  "Pickle",
+                  "CSV",
+                  "Git",
+                ]}
+                image="/placeholder.svg?height=400&width=600"
                 link="https://github.com/shreevatsdhyani/MaliciousURLDetector"
               />
             </div>
