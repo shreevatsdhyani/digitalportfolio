@@ -20,18 +20,16 @@ import Link from "next/link"
 import { Suspense } from "react"
 
 export default function Home() {
-const words = [
-  { text: "Turning" },
-  { text: "data" },
-  { text: "into" },
-  { text: "action," },
-  { text: "and" },
-  { text: "models", className: "text-primary" },
-  { text: "into" },
-  { text: "impact." },
-];
-
-
+  const words = [
+    { text: "Turning" },
+    { text: "data" },
+    { text: "into" },
+    { text: "action," },
+    { text: "and" },
+    { text: "models", className: "text-primary" },
+    { text: "into" },
+    { text: "impact." },
+  ]
 
   return (
     <><main className="flex min-h-screen flex-col items-center justify-between">
@@ -47,8 +45,8 @@ const words = [
               className="text-center space-y-4"
             >
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">Shreevats Dhyani</h1>
-              <div className="h-12">
-                <TypewriterEffect words={words} />
+              <div className="h-auto">
+                <TypewriterEffect words={words} className="text-2xl sm:text-4xl md:text-5xl font-bold" />
               </div>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                 ML Engineer | Generative AI Developer | Software Innovator
