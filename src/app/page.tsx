@@ -21,26 +21,16 @@ import { Suspense } from "react"
 
 export default function Home() {
   const words = [
-    {
-      text: "Building",
-    },
-    {
-      text: "the",
-    },
-    {
-      text: "future",
-    },
-    {
-      text: "with",
-    },
-    {
-      text: "code",
-      className: "text-primary",
-    },
-    {
-      text: ".",
-    },
-  ]
+  { text: "Turning" },
+  { text: "data" },
+  { text: "into" },
+  { text: "action," },
+  { text: "and" },
+  { text: "models", className: "text-primary" },
+  { text: "into" },
+  { text: "impact." },
+]
+
 
   return (
     <><main className="flex min-h-screen flex-col items-center justify-between">
@@ -60,7 +50,7 @@ export default function Home() {
                 <TypewriterEffect words={words} />
               </div>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Machine Learning / Data Science Engineer & Software Developer
+                ML Engineer | Generative AI Developer | Software Innovator
               </p>
             </motion.div>
             <motion.div
