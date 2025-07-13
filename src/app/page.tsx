@@ -20,16 +20,8 @@ import Link from "next/link"
 import { Suspense } from "react"
 
 export default function Home() {
-  const words = [
-  { text: "Turning" },
-  { text: "data" },
-  { text: "into" },
-  { text: "action," },
-  { text: "and" },
-  { text: "models", className: "text-primary" },
-  { text: "into" },
-  { text: "impact." },
-]
+const words = ["Turning data into action, and models into impact."];
+
 
 
   return (
