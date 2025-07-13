@@ -16,6 +16,17 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
+    title: "AI Tech Intern",
+    company: "INDOEUROPEANS (India) PRIVATE LIMITED",
+    location: "Noida Electronic City (On-site)",
+    period: "June 2025 – Present",
+    description: [
+      "Fine-tuned Large Language Models (LLMs) and image generation models to address domain-specific business requirements.",
+      "Designed and implemented end-to-end Generative AI solutions, contributing to the company's AI-driven product innovations.",
+    ],
+    skills: ["LLMs", "Generative AI", "Image Generation", "Model Fine-tuning"],
+  },
+  {
     title: "Software Developer Intern",
     company: "IWINTU Global Services Pvt Ltd",
     location: "Remote",
