@@ -135,30 +135,21 @@ export default function Home() {
               <ProjectCard
                 title="Goofy Music"
                 description="Your personalized music streaming platform with a sleek interface, powerful player, and seamless authentication for an unmatched listening experience."
-                tags={[
-                  "HTML", "CSS", "Tailwind CSS", "JavaScript", "Django",
-                  "PostgreSQL", "Google Authentication", "Email Integration"
-                ]}
+                tags={["HTML", "CSS", "Tailwind CSS", "JavaScript", "Django", "PostgreSQL", "Google Authentication", "Email Integration"]}
                 image={goofypic}
                 link="https://github.com/shreevatsdhyani/GoofyMusic"
               />
               <ProjectCard
                 title="ECG Anomaly Detection using Autoencoders"
                 description="Autoencoder-based ECG anomaly detection using TensorFlow/Keras."
-                tags={[
-                  "Python", "TensorFlow", "Keras", "NumPy", "Pandas",
-                  "Scikit-learn", "Matplotlib", "Seaborn", "Plotly"
-                ]}
+                tags={["Python", "TensorFlow", "Keras", "NumPy", "Pandas", "Scikit-learn", "Matplotlib", "Seaborn", "Plotly"]}
                 image={ecgpic}
                 link="https://github.com/shreevatsdhyani/ECG_Anomaly_Detector"
               />
               <ProjectCard
                 title="Malicious URL Detector"
                 description="A web app using AI to detect malicious URLs, offering a secure and user-friendly browsing experience."
-                tags={[
-                  "Python", "Flask", "Scikit-learn", "Pandas", "NumPy",
-                  "TF-IDF Vectorizer", "HTML", "CSS", "JavaScript", "Pickle", "CSV", "Git"
-                ]}
+                tags={["Python", "Flask", "Scikit-learn", "Pandas", "NumPy", "TF-IDF Vectorizer", "HTML", "CSS", "JavaScript", "Pickle", "CSV", "Git"]}
                 image={urlpic}
                 link="https://github.com/shreevatsdhyani/MaliciousURLDetector"
               />
