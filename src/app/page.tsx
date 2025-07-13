@@ -10,12 +10,12 @@ import { SkillWheel } from "@/components/ui/skill-wheel"
 import { SocialLinks } from "@/components/ui/social-links"
 import { TypewriterEffect } from "@/components/ui/typewriter-effect"
 import { Button } from "@/components/ui/button"
-
 import { Environment, Float, OrbitControls } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 import { motion } from "framer-motion"
 import Link from "next/link"
 import { Suspense } from "react"
+
 
 export default function Home() {
   const words = [
